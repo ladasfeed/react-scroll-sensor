@@ -49,3 +49,6 @@ After:
 it just for render count of points), and sectionSetter if you want to move over page by anchors. There is example.
 4. The code after NavSensor is neccesary. We should map array and wrap each section. You can change only boundaries(px) - that determiate area for detection section (around
  upper boundary).
+ 
+To run example dowloand folder, import NavSensor component and put it somwhere.
+To use Sensor import ScrollSensor, useSrcoll and follow rules.
