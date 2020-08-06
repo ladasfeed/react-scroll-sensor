@@ -1,0 +1,20 @@
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+.section_1 {
+    background-color: aqua;
+}
+
+.section_2 {
+    background-color: black;
+}
+
+.section_3 {
+    background-color: chartreuse;
+}
+
+.section_4 {
+    background-color: coral;
+}
