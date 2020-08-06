@@ -2,8 +2,7 @@
 Here is simple mini-library which was created to make your website more beautiful. It allows to visualize order of section on page.
 To use that you need to make some changes in your react code.
 Before:
-`...
-return(
+return (
 <div>
   <section className="section_1"></section>,
   <section className="section_2"></section>,
@@ -11,9 +10,9 @@ return(
   <section className="section_4"></section>
 </div>
 )
-`
+
 After:
-`
+
 ...
 import ScrollSensor from './NavSensorUI/ScrollSensor'
 import useScroll from './NavSensorUI/useScroll'
@@ -41,7 +40,7 @@ const YourPage = () => {
         </div>
     )
 }
-`
+
 1. Create array of sections
 2. Create tempSection and setter by useScroll()
 3. Nav Sensor is your component which will visualize tempSection. It will your custom component, it can take tempSection(number), arrayOfSections(or count - 
