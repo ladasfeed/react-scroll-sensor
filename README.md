@@ -41,7 +41,7 @@ After:
             })}
         </div>
     )
-}
+    }
 
 1. Create array of sections
 2. Create tempSection and setter by useScroll()
