@@ -2,28 +2,30 @@
 Here is simple mini-library which was created to make your website more beautiful. It allows to visualize order of section on page.
 To use that you need to make some changes in your react code.
 Before:
-return (
-<div>
-  <section className="section_1"></section>,
-  <section className="section_2"></section>,
-  <section className="section_3"></section>,
-  <section className="section_4"></section>
-</div>
-)
+
+    return (
+      <div>
+        <section className="section_1"></section>,
+        <section className="section_2"></section>,
+        <section className="section_3"></section>,
+        <section className="section_4"></section>
+      </div>
+    )
 
 After:
 
-...
-import ScrollSensor from './NavSensorUI/ScrollSensor'
-import useScroll from './NavSensorUI/useScroll'
+    ...
+    import ScrollSensor from './NavSensorUI/ScrollSensor'
+    import useScroll from './NavSensorUI/useScroll'
 
-const arrayOfSections = [
-    <section className="section_1"></section>,
-    <section className="section_2"></section>,
-    <section className="section_3"></section>,
-    <section className="section_4"></section>
-]
-const YourPage = () => {
+    const arrayOfSections = [
+        <section className="section_1"></section>,
+        <section className="section_2"></section>,
+        <section className="section_3"></section>,
+        <section className="section_4"></section>
+    ]
+
+    const YourPage = () => {
     const [tempSection, setTempSection] = useScroll();
     
     return (
